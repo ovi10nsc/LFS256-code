@@ -16,4 +16,4 @@ spec:
       - name: argocd-example-app
         image: nginx:1.26
         ports:
-        - containerPort: 3000 # Assuming your app runs on port 3000
+        - containerPort: 80 # Assuming your app runs on port 3000
